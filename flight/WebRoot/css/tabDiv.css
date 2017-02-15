@@ -1,0 +1,53 @@
+
+
+ul.tabUl{  
+    margin:0;  
+    padding:0;  
+    list-style:none;  
+    }  
+ul.tabUl li{  
+    float:left;     
+    }  
+ul.tabUl li a{  
+    display:block;  
+    width:100px;  
+    height:25px;  
+    line-height:25px;  
+    text-align:center;  
+    font-size:12px;  
+    color:#369;  
+    text-decoration:none;  
+    }  
+ul.tabUl li a.sel{  
+    position:relative;  
+    top:1px;  
+    margin-top:-1px;  
+    width:98px;  
+    background:#fff;  
+    height:25px;  
+    line-height:24px;  
+    border:1px solid #ccc;  
+    border-bottom:none;  
+    }  
+ul.tabUl li a.sel:hover{  
+    color:#f60;  
+}  
+ul.tabUl li a:hover{  
+    color:#f60;  
+}     
+div.tabDiv{
+    float:left;  
+    clear:left;  
+    width:98.5%;  
+    border:1px solid #ccc;  
+    padding:10px;  
+    display:none;  
+}
+div.onTabDiv{
+    float:left;  
+    clear:left;
+    width:98.5%;  
+    border:1px solid #ccc;  
+    padding:10px;  
+    display:block;  
+}

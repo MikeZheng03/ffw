@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="strutsflight" extends="struts-default" namespace="/" >
+		<action name="LoginAction" class="service.LoginAction">
+			<result name="input">/login.jsp</result>
+			<result name="success">/index.jsp</result>
+		</action>
+		<action name="GrantAction" class="service.GrantAction">
+			<result name="input">/grantLogin.jsp</result>
+			<result name="success">/grant.jsp</result>
+		</action>
+	</package>
+</struts>    
